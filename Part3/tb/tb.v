@@ -10,7 +10,7 @@
 `define QUARTSEC 24'd37148
 `define EIGHTSEC 24'd18547
 
-module slowrst(output reg slRst, input wire slClk, input wire rst);
+module slowrst(output wire slRst, input wire slClk, input wire rst);
    reg [1:0] cnt = 0;
    wire [1:0] nxtCnt;
    
