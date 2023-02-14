@@ -14,7 +14,7 @@ module top_level_lab2_part3(
     Pulse,      // assume 1/sec.
     DorT,
 // 6 decimal digit display (7 segment)
-  output[6:0] S1disp, S0disp,      // 2-digit  display
+  output logic [6:0] S1disp, S0disp,      // 2-digit  display
               MD1disp, MD0disp,    // 2 digit display  minutes/date
               HM1disp, HM0disp,     // 2-digit display hours/month
                DayLED,             // day of week LED
