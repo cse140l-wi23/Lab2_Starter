@@ -12,7 +12,7 @@ module top_level_lab2_part1(
                  Alarmon,
                  Pulse, // assume 1/sec. -- this is our digital clk
 // 6 decimal digit display (7 segment)
-    output [6:0] S1disp, S0disp, // 2-digit seconds display
+    output logic [6:0] S1disp, S0disp, // 2-digit seconds display
                  M1disp, M0disp, 
                  H1disp, H0disp,
     output logic AMorPM, // AMorPM (=1 when PM) 
